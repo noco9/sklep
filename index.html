@@ -1,29 +1,16 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nocna Papuga Shop - Oficjalny Sklep Serwera</title>
-  <meta name="description" content="Oficjalny sklep serwera Minecraft Nocna Papuga Shop. Kup netherytowy miecz, kilof i inne przedmioty.">
-  <style>
-    body { font-family: Arial, sans-serif; background-color: #121212; color: #ffffff; margin: 0; padding: 20px; text-align: center; }
-    header { background-color: #1e1e1e; padding: 20px; border-radius: 10px; margin-bottom: 30px; border: 1px solid #333; }
-    h1 { color: #2ecc71; margin: 0; }
-    .nick-box { margin: 20px 0; }
-    input[type="text"] { padding: 10px; font-size: 16px; border-radius: 5px; border: 1px solid #444; background: #222; color: #fff; width: 250px; }
-    .products { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; max-width: 800px; margin: 0 auto; }
-    .card { background-color: #1e1e1e; border: 1px solid #333; border-radius: 10px; padding: 20px; width: 280px; }
-    .card h2 { font-size: 18px; color: #f1c40f; }
-    .price { font-size: 22px; font-weight: bold; margin: 15px 0; color: #2ecc71; }
-    button { background-color: #2ecc71; color: #000; border: none; padding: 12px 20px; font-size: 16px; font-weight: bold; border-radius: 5px; cursor: pointer; width: 100%; }
-    button:hover { background-color: #27ae60; }
-    #modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); justify-content: center; align-items: center; }
-    .modal-content { background: #1e1e1e; padding: 30px; border-radius: 10px; max-width: 400px; border: 1px solid #2ecc71; }
-  </style>
+<meta charset="UTF-8">
+<title>Nocna Papuga Shop</title>
 </head>
-<body>
-
-  <header>
-    <h1>🦜 Nocna Papuga Shop</h1>
-    <p>Oficjalny sklep serwera Minecraft</p>
-  </header>
+<body style="background:#111;color:#fff;font-family:Arial;text-align:center;padding:30px">
+<h1>🦜 Nocna Papuga Shop</h1>
+<p>Twój nick: <input id="n" placeholder="Wpisz nick..."></p>
+<div style="border:1px solid #444;padding:15px;margin:10px auto;max-width:300px">
+<h3>Netherytowy Miecz - 5 zł</h3>
+<button onclick="alert('Gracz: '+document.getElementById('n').value+' kupuje Miecz za 5 zł. Zgłoś się na Discord!')">Kup teraz</button>
+</div>
+<div style="border:1px solid #444;padding:15px;margin:10px auto;max-width:300px">
+<h3>Netherytowy Kilof - 8,50 zł</h3>
+<button onclick="alert('Gracz: '+document.getElementById('n').value+' kupuje Kilof za 8,50 zł. Zgłoś się na Discord!')">Kup teraz</button>
