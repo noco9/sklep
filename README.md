@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="refresh" content="0; url=TWOJ_LINK_DO_SKLEPU">
+  <meta http-equiv="refresh" content="0; url=https://itemshop.cloudly.gg/purchase/1cPVM4tcJJ>
 </head>
 <body>
-  <p>Przekierowanie do sklepu: <a href="TWOJ_LINK_DO_SKLEPU">Kliknij tutaj</a>.</p>
+  <p>Przekierowanie: <a href=https://itemshop.cloudly.gg/purchase/1cPVM4tcJJ>Kliknij tutaj</a>.</p>
 </body>
 </html>
